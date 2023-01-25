@@ -58,8 +58,3 @@ searchBtn.addEventListener('click', () => {
             }
         })
 });
-
-function Counter(){
-  const [count,setCount] = props.Counter;
-  console.log
-}
