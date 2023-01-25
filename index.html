@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
+    <title>Country Guide</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Mochiy+Pop+P+One&family=Montserrat:wght@200;300&family=Oswald&family=Poppins:ital,wght@0,200;0,500;0,600;1,400;1,500&family=Rajdhani:wght@400;500;600&family=Raleway:ital,wght@0,300;1,200&family=Vujahday+Script&display=swap"
+        rel="stylesheet">
+    <!-- css file  -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h2>Hello </h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta temporibus at dignissimos quae deleniti veritatis. Quae alias at, voluptatum voluptatibus officia dolore, vero voluptate qui delectus esse, rem iste quibusdam obcaecati aperiam omnis architecto! Ad, assumenda. Aut tempora, ut eligendi libero, architecto soluta, accusantium repellendus delectus perspiciatis exercitationem aliquam.</p>
-    <h1>Lorem ipsum dolor sit amet.</h1>
+    <div class="container">
+        <div class="search-wrapper">
+            <input type="text" id="country-inp" placeholder="Enter a country name here" />
+            <button id="search-btn">search</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
